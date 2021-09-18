@@ -16,7 +16,7 @@ jobs:
         with:
           version: '1.6'
       - name: Install dependencies
-        run: julia --project=docs/ -e 'using Pkg; Pkg.add(url="https://github.com/PhysicsCodesLab/TupleLabXD.jl"); Pkg.add(url="https://github.com/PhysicsCodesLab/StridedTensorXD.jl"); Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+        run: julia --project=docs/ -e 'using Pkg; Pkg.add(url="https://github.com/PhysicsCodesLab/TupleLabXD.jl"); Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Initialize documents
         run: |
             julia --project=docs/ -e '
