@@ -1,14 +1,21 @@
 using Documenter
 using StridedTensorXD
 
-makedocs(modules=[StridedTensorXD],
-            sitename="StridedTensorXD.jl",
-            authors = "PhysicsCodesLab",
-            format = Documenter.HTML(; prettyurls = get(ENV, "CI", nothing) == "true",
-                                        mathengine = MathJax()),
-            pages = [
-                "Home" => "src/index.md",
-                "Index" => ["src/index/index.md"]
-            ])
+makedocs(;
+    modules=[StridedTensorXD],
+    sitename="StridedTensorXD.jl",
+    authors = "PhysicsCodesLab",
+    format = Documenter.HTML(; 
+        prettyurls = get(ENV, "CI", nothing) == "true",
+        mathengine = MathJax()
+    ),
+    pages = [
+        "Home" => "index.md",
+         "Index" => ["index/index.md"]
+    ],
+)
 
-deploydocs(repo = "github.com/PhysicsCodesLab/StridedTensorXD.jl.git")
+deploydocs(; 
+   repo = "github.com/PhysicsCodesLab/StridedTensorXD.jl.git",
+   devbranch="main"
+)
