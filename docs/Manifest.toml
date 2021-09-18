@@ -88,5 +88,13 @@ uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
 deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+[[TupleLabXD]]
+deps = ["Random"]
+git-tree-sha1 = "bdd164ea8664b37f56aecaccfa0b5332b62cdc0c"
+repo-rev = "master"
+repo-url = "https://github.com/PhysicsCodesLab/TupleLabXD.jl"
+uuid = "dd89015c-70e0-43f5-a84b-ae32a3a24356"
+version = "0.1.0"
+
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
