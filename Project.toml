@@ -1,0 +1,13 @@
+name = "StridedTensorXD"
+uuid = "264d0366-5c21-4846-9aa6-f0da616294d5"
+authors = ["PhysicsCodesLab"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
