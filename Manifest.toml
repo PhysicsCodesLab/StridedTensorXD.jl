@@ -16,8 +16,6 @@ uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
 [[TupleLabXD]]
 deps = ["Random"]
-git-tree-sha1 = "bdd164ea8664b37f56aecaccfa0b5332b62cdc0c"
-repo-rev = "master"
-repo-url = "https://github.com/PhysicsCodesLab/TupleLabXD.jl"
+path = "/Users/xdong/Dropbox/PhysicsCodesLab/StridedTensorXD/TupleLabXD"
 uuid = "dd89015c-70e0-43f5-a84b-ae32a3a24356"
 version = "0.1.0"
