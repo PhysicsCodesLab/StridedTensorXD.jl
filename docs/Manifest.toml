@@ -44,6 +44,13 @@ version = "0.21.2"
 deps = ["Base64", "NetworkOptions", "Printf", "SHA"]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
 
+[[Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[[LinearAlgebra]]
+deps = ["Libdl"]
+uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 [[Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
@@ -84,9 +91,21 @@ uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 [[Sockets]]
 uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
 
+[[StridedTensorXD]]
+deps = ["LinearAlgebra", "Random", "TupleLabXD"]
+path = "/Users/xdong/Dropbox/PhysicsCodesLab/StridedTensorXD"
+uuid = "264d0366-5c21-4846-9aa6-f0da616294d5"
+version = "0.1.0"
+
 [[Test]]
 deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[[TupleLabXD]]
+deps = ["Random"]
+path = "../TupleLabXD"
+uuid = "dd89015c-70e0-43f5-a84b-ae32a3a24356"
+version = "0.1.0"
 
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
