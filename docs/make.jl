@@ -7,8 +7,8 @@ makedocs(modules=[StridedTensorXD],
             format = Documenter.HTML(; prettyurls = get(ENV, "CI", nothing) == "true",
                                         mathengine = MathJax()),
             pages = [
-                "Home" => "index.md",
-                "Index" => ["index/index.md"]
+                "Home" => "src/index.md",
+                "Index" => ["src/index/index.md"]
             ])
 
 deploydocs(repo = "github.com/PhysicsCodesLab/StridedTensorXD.jl.git")
