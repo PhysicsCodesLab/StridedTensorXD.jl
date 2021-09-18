@@ -1,2 +1,23 @@
 # This file is machine-generated - editing it directly is not advised
 
+[[Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[[LinearAlgebra]]
+deps = ["Libdl"]
+uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[[Random]]
+deps = ["Serialization"]
+uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[[Serialization]]
+uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+[[TupleLabXD]]
+deps = ["Random"]
+git-tree-sha1 = "bdd164ea8664b37f56aecaccfa0b5332b62cdc0c"
+repo-rev = "master"
+repo-url = "https://github.com/PhysicsCodesLab/TupleLabXD.jl"
+uuid = "dd89015c-70e0-43f5-a84b-ae32a3a24356"
+version = "0.1.0"
